@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+.logo-image{
+	height: 60px;
+}
+#header{
+	background-color: #505dff;
+}
+.title{
+	display: inline-block;
+}
+.title-user{
+	height: 100%;
+	width: 100%;
+}
+.img-user{
+	width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.aside{
+	background-color: rgba(43, 57, 239, 0.16);
+	height: 550px;
+}
+.user-dropdown{
+	display: inline-block;
+	
+}
+.dropdown-menu{
+	transform: translate3d(-95px, 40px, 0px);
+}
+.aside ul{
+	list-style-type: none;
+	padding: 0;
+}
+.aside ul li{
+	padding: 8px 0px;
+}
+.aside ul a{
+	color: white;
+}
+.aside label{
+	width: 100%;
+	text-align: center;
+	padding: 10px 0px;
+    margin: 0;
+}
+.aside ul li:hover{
+	background-color: #505dff;
+}
+
+
